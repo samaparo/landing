@@ -509,12 +509,12 @@ h2 {
 
 @font-face {
   font-family: hack;
-  src: url('/fonts/hack-regular-webfont.ttf');
+  src: url('/fonts/hack-regular-webfont.woff');
 }
 
 @font-face {
   font-family: hack-bold;
-  src: url('/fonts/hack-bold-webfont.ttf');
+  src: url('/fonts/hack-bold-webfont.woff');
 }
 
 .typed-cursor{
