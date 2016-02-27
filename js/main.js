@@ -459,10 +459,10 @@ function centerContent () {
         typeSpeed: 30,
         startDelay: 0,
         backSpeed: 30,
-        backDelay: 1000
+        backDelay: 800
       });
-    }, 800);
-  }, 1000);
+    }, 500);
+  }, 500);
 
   window.addEventListener('resize', centerContent);
 }());
