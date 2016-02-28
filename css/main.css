@@ -463,16 +463,19 @@ body {
 .headers {
   text-align: center;
   transform: translate3d(0, -55%, 0);
+  -webkit-transform: translate3d(0, -55%, 0);
   top: 50%;
   width: 100%;
   position: absolute;
   opacity: 0;
   transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
   color: #edecec;
 }
 .headers.end {
   opacity: 1;
   transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
 }
 
 .icons {
